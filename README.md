@@ -43,7 +43,7 @@ https://pypi.org; status: True; domain_payment_>_month: True; date to: 2018-07-2
 ### Example result with errors
 ```bash
 https://toster.ru, status: True, domain payment > month: True, date to: 2018 08 08
- ERROR WHOIS responce: https://pypi.org; error: [Errno 104] Connection reset by peer
+ ERROR WHOIS response: https://pypi.org; error: [Errno 104] Connection reset by peer
 https://google.com, status: True, domain payment > month: True, date to: 2020 09 14
 https://habr.com, status: True, domain payment > month: True, date to: 2019 03 11
  ERROR https://pypi.org; socket timeout: timed out

@@ -33,7 +33,7 @@ def is_server_respond_with_200(url):
 
     response = requests.get(url)
 
-    if response.status_code == 200:
+    if response.ok:
         return True
     else:
         return False
