@@ -31,22 +31,14 @@ python3 check_sites_health.py --path "path to file"
 
 ### Example result
 ```bash
-https://github.com, status: True, domain payment > month: True, date to: 2020 10 09
-https://devman.org, status: True, domain payment > month: True, date to: 2018 08 28
-https://python-scripts.com, status: True, domain payment > month: True, date to: 2018 09 06
-https://toster.ru, status: True, domain payment > month: True, date to: 2018 08 08
-https://google.com, status: True, domain payment > month: True, date to: 2020 09 14
-https://habr.com, status: True, domain payment > month: True, date to: 2019 03 11
-https://pypi.org; status: True; domain_payment_>_month: True; date to: 2018-07-24
-```
-
-### Example result with errors
-```bash
-https://toster.ru, status: True, domain payment > month: True, date to: 2018 08 08
- ERROR WHOIS response: https://pypi.org; error: [Errno 104] Connection reset by peer
-https://google.com, status: True, domain payment > month: True, date to: 2020 09 14
-https://habr.com, status: True, domain payment > month: True, date to: 2019 03 11
- ERROR https://pypi.org; socket timeout: timed out
+http://www.jhkgjhkgjhgk.com; status: no access
+https://github.com; status: True; domain_payment_>_month: True; date to: 2020-10-09 18:20:50
+https://python-scripts.com; status: True; domain_payment_>_month: True; date to: 2018-09-06 20:18:03
+https://devman.org; status: True; domain_payment_>_month: True; date to: 2018-08-28 11:49:42
+https://habr.com; status: True; domain_payment_>_month: True; date to: 2019-03-11 17:04:56
+https://google.com; status: True; domain_payment_>_month: True; date to: 2020-09-14 04:00:00
+https://pypi.org; status: True; domain_payment_>_month: False; date to: WHOIS_connection_reset
+https://toster.ru; status: True; domain_payment_>_month: True; date to: 2018-08-08 21:00:00
 ```
 
 ### Requirements
