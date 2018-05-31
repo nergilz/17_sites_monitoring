@@ -67,7 +67,7 @@ def check_payment_date(expiration_date, amount_of_days):
     date_now = datetime.datetime.now()
     check_date = date_now + datetime.timedelta(amount_of_days)
 
-    return bool(check_date < expiration_date)
+    return check_date < expiration_date
 
 
 def check_urls(list_urls4check, amount_of_days):
